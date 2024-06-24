@@ -10,6 +10,19 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
+    <!-- Page wrapper -->
+    <div id="app" class="page-wrapper">
+        <div>
+            <div class="content">
+                <h1>
+                    {{message}}
+                </h1>
+    
+                <img :src="image" :alt="imageAlt">
+            </div>
+        </div>
+    </div>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>
